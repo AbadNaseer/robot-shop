@@ -15,7 +15,7 @@ RUN mvn package
 #
 # Run
 #
-FROM eclipse-temurin:8-jdk-jammy
+FROM amazoncorretto:8
 
 EXPOSE 8080
 
